@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.6">
+    <meta name="apple-mobile-web-app-capable" content="YES">
+    <link rel="apple-touch-icon" href="Images/WebClipIcon.png">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="Parts/ActivityIndicator.css">
+    <link rel="stylesheet" type="text/css" href="Parts/Transitions.css">
+    <script type="text/javascript" src="Parts/utilities.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/setup.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/Text.js" charset="utf-8"></script>
+    <script type="text/javascript" src="main.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/ActivityIndicator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/PushButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/CallButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/ButtonHandler.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/Gauge.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/LevelIndicator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/HorizontalLevelIndicator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/Indicator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/MailButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/MapButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/VerticalLevelIndicator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/Header.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/Transitions.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/StackLayout.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/Browser.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/List.js" charset="utf-8"></script>
+</head>
+<body onload="load();">
+    <div id="content">
+        <img src="Images/ActivityIndicator.png" id="activityIndicator">
+        <div id="gauge"></div>
+        <div id="button"></div>
+        <div id="button1"></div>
+        <div id="horizontalLevelIndicator"></div>
+        <div id="indicator"></div>
+        <div id="checkboxbutton">
+            <input type="checkbox" name="Checkbox" checked="checked" id="checkboxbutton1">
+            <div id="text">Checkbox</div>
+        </div>
+        <select apple-style-relative="height: 20px;" id="popup">
+            <option id="text1">Item 1</option>
+            <option id="text2">Item 2</option>
+            <option id="text3">Item 3</option>
+        </select>
+        <div id="radiobutton">
+            <input type="radio" name="Radio" checked="checked" id="radiobutton1">
+            <div id="text4">Radio</div>
+        </div>
+    </div>
+    <div id="button2"></div>
+    <div id="button3"></div>
+    <div id="button4"></div>
+    <div id="callButton" checked="checked"></div>
+    <div id="mailButton" checked="checked"></div>
+    <div id="mapButton" checked="checked"></div>
+    <div id="verticalLevelIndicator"></div>
+    <div id="button5"></div>
+    <div id="button6"></div>
+    <div id="button7"></div>
+    <div id="topRectangleShape">
+    </div>
+    <div id="rectangleShape">
+    </div>
+    <div id="bottomRectangleShape">
+    </div>
+    <div id="ovalShape">
+    </div>
+    <div id="roundedRectangleShape">
+    </div>
+    <div id="stackLayout1"><div id="view3"></div><div id="view4"></div></div>
+    <canvas width="319" height="189" id="canvas"></canvas>
+    <input type="search" value="" placeholder="" results="10" incremental="incremental" id="searchfield">
+    <textarea id="textarea"></textarea>
+    <input type="text" name="" value="" id="textfield">
+    <div id="text5"></div>
+    <div id="box"></div>
+    <div id="box1"></div>
+    <div id="columnLayout">
+        <div style="position: relative; display: table-cell; vertical-align: top; height: auto; width: 13%; "><div id="column2"></div></div><div style="position:relative; display:table-cell; vertical-align: top; width:12%; height: auto;"><div id="column3"></div></div><div style="position: relative; display: table-cell; vertical-align: top; height: auto; width: 25%; "><div id="column"></div></div><div style="position:relative; display:table-cell; vertical-align: top; width:50%; height: auto;"><div id="column1"></div></div></div>
+    <div id="browser">
+        <div id="header">
+            <div class="dashcode-header-backbutton button8_template" id="button8"></div>
+        </div>
+        <div id="stackLayout"><div id="view1"></div><div id="view2"></div></div>
+    </div>
+    <ul id="list">
+        <li id="listRowTemplate" class="listRowTemplate_template">
+            <div id="label" class="label_template"></div>
+            <div id="arrow" class="arrow_template">
+            </div>
+        </li>
+    </ul>
+    <ul id="list1">
+        <li id="listRowTemplate1" class="listRowTemplate1_template" style="border-top-width: 0px; ">
+            <div id="label1" class="label1_template"></div>
+            <div id="arrow1" class="arrow1_template">
+            </div>
+        </li>
+    </ul>
+    <div id="footer"></div>
+</body>
+</html>
